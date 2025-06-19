@@ -96,7 +96,7 @@ sudo sync
 echo 3 | sudo tee /proc/sys/vm/drop_caches
 ```
 
-### # Как "прогреть" базу в PostgreSQL?
+### Как "прогреть" базу в PostgreSQL?
 Первый способ. С помощью расширения:
 
 PostgreSQL имеет специальное расширение для прогрева кэша: **`pg_prewarm`**.
